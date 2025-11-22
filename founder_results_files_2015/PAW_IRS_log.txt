@@ -1,0 +1,66 @@
+
+=================================================================
+ pandas_TMT_IRS_norm.py, v1.0.1, written by Phil Wilmarth 2017-8 
+=================================================================
+select a protein results file with TMT intensities and sample key:
+processing: labeled_founder_grouped_proteins_TMT.txt
+proteins in results file: 7417
+total number of non-contaminant proteins: 7066
+contamaminant and decoy count: 351
+..731 proteins were not quantifiable in founder-SF1
+..819 proteins were not quantifiable in founder-SF2
+..582 proteins were not quantifiable in founder-SF3
+..612 proteins were not quantifiable in founder-SF4
+..proteins with no intensities experiment-wide: 63
+
+founder-SF1 SL Norm Factors:
+  TotInt_126C_founder-SF1: 1.257843
+  TotInt_127N_founder-SF1: 1.396289
+  TotInt_127C_founder-SF1: 1.178010
+  TotInt_128N_founder-SF1: 1.058927
+  TotInt_128C_founder-SF1: 1.316757
+  TotInt_129N_founder-SF1: 1.602318
+  TotInt_129C_founder-SF1: 1.576675
+  TotInt_130N_founder-SF1: 1.412788
+  TotInt_130C_founder-SF1: 2.084904
+  TotInt_131N_founder-SF1: 2.009475
+  TotInt_131C_founder-SF1: 1.427079
+founder-SF2 SL Norm Factors:
+  TotInt_126C_founder-SF2: 1.841522
+  TotInt_127N_founder-SF2: 1.710799
+  TotInt_127C_founder-SF2: 1.762171
+  TotInt_128N_founder-SF2: 1.642331
+  TotInt_128C_founder-SF2: 1.582378
+  TotInt_129N_founder-SF2: 1.130835
+  TotInt_129C_founder-SF2: 1.405335
+  TotInt_130N_founder-SF2: 0.864863
+  TotInt_130C_founder-SF2: 1.780900
+  TotInt_131N_founder-SF2: 1.537936
+  TotInt_131C_founder-SF2: 1.449328
+founder-SF3 SL Norm Factors:
+  TotInt_126C_founder-SF3: 0.576573
+  TotInt_127N_founder-SF3: 0.800958
+  TotInt_127C_founder-SF3: 0.785109
+  TotInt_128N_founder-SF3: 0.606289
+  TotInt_128C_founder-SF3: 0.830538
+  TotInt_129N_founder-SF3: 0.736424
+  TotInt_129C_founder-SF3: 0.861759
+  TotInt_130N_founder-SF3: 0.655200
+  TotInt_130C_founder-SF3: 0.820082
+  TotInt_131N_founder-SF3: 0.739494
+  TotInt_131C_founder-SF3: 0.728530
+founder-SF4 SL Norm Factors:
+  TotInt_126C_founder-SF4: 0.846216
+  TotInt_127N_founder-SF4: 1.417303
+  TotInt_127C_founder-SF4: 0.646443
+  TotInt_128N_founder-SF4: 0.686992
+  TotInt_128C_founder-SF4: 0.738196
+  TotInt_129N_founder-SF4: 0.876976
+  TotInt_129C_founder-SF4: 1.035866
+  TotInt_130N_founder-SF4: 0.956479
+  TotInt_130C_founder-SF4: 0.650725
+  TotInt_131N_founder-SF4: 0.697224
+  TotInt_131C_founder-SF4: 0.808626
+
+number of non-contaminant/decoy proteins: 7066
+number of proteins with full intensity sets: 5806
