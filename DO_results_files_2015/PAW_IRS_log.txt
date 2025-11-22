@@ -1,0 +1,287 @@
+
+=================================================================
+ pandas_TMT_IRS_norm.py, v1.0.1, written by Phil Wilmarth 2017-8 
+=================================================================
+select a protein results file with TMT intensities and sample key:
+processing: labeled_DO_grouped_proteins_TMT.txt
+proteins in results file: 9100
+total number of non-contaminant proteins: 8340
+contamaminant and decoy count: 760
+..1962 proteins were not quantifiable in DO-Set00
+..2222 proteins were not quantifiable in DO-Set01
+..1915 proteins were not quantifiable in DO-Set02
+..2158 proteins were not quantifiable in DO-Set03
+..1912 proteins were not quantifiable in DO-Set04
+..1603 proteins were not quantifiable in DO-Set05
+..2156 proteins were not quantifiable in DO-Set06
+..2218 proteins were not quantifiable in DO-Set07
+..2223 proteins were not quantifiable in DO-Set08
+..1908 proteins were not quantifiable in DO-Set09
+..2180 proteins were not quantifiable in DO-Set10
+..2190 proteins were not quantifiable in DO-Set11
+..1778 proteins were not quantifiable in DO-Set12
+..1830 proteins were not quantifiable in DO-Set13
+..1689 proteins were not quantifiable in DO-Set14
+..1400 proteins were not quantifiable in DO-Set15
+..2020 proteins were not quantifiable in DO-Set16
+..1597 proteins were not quantifiable in DO-Set17
+..1816 proteins were not quantifiable in DO-Set18
+..1835 proteins were not quantifiable in DO-Set19
+..2148 proteins were not quantifiable in DO-Set20
+..proteins with no intensities experiment-wide: 62
+
+DO-Set00 SL Norm Factors:
+  TotInt_126C_DO-Set00: 0.539705
+  TotInt_127N_DO-Set00: 0.470259
+  TotInt_127C_DO-Set00: 0.525352
+  TotInt_128N_DO-Set00: 0.515251
+  TotInt_128C_DO-Set00: 0.338664
+  TotInt_129N_DO-Set00: 0.517533
+  TotInt_129C_DO-Set00: 0.550862
+  TotInt_130N_DO-Set00: 0.495446
+  TotInt_130C_DO-Set00: 0.642223
+  TotInt_131N_DO-Set00: 0.632301
+  TotInt_131C_DO-Set00: 0.508104
+DO-Set01 SL Norm Factors:
+  TotInt_126C_DO-Set01: 0.739538
+  TotInt_127N_DO-Set01: 1.091117
+  TotInt_127C_DO-Set01: 1.096573
+  TotInt_128N_DO-Set01: 1.476958
+  TotInt_128C_DO-Set01: 1.072258
+  TotInt_129N_DO-Set01: 0.699767
+  TotInt_129C_DO-Set01: 1.495443
+  TotInt_130N_DO-Set01: 1.460028
+  TotInt_130C_DO-Set01: 1.864683
+  TotInt_131N_DO-Set01: 1.841289
+  TotInt_131C_DO-Set01: 1.155756
+DO-Set02 SL Norm Factors:
+  TotInt_126C_DO-Set02: 2.037481
+  TotInt_127N_DO-Set02: 2.808255
+  TotInt_127C_DO-Set02: 1.863567
+  TotInt_128N_DO-Set02: 2.456882
+  TotInt_128C_DO-Set02: 3.249657
+  TotInt_129N_DO-Set02: 2.387382
+  TotInt_129C_DO-Set02: 3.326994
+  TotInt_130N_DO-Set02: 1.923455
+  TotInt_130C_DO-Set02: 2.940036
+  TotInt_131N_DO-Set02: 2.812905
+  TotInt_131C_DO-Set02: 2.479409
+DO-Set03 SL Norm Factors:
+  TotInt_126C_DO-Set03: 2.851721
+  TotInt_127N_DO-Set03: 3.103973
+  TotInt_127C_DO-Set03: 2.202779
+  TotInt_128N_DO-Set03: 2.724182
+  TotInt_128C_DO-Set03: 2.574182
+  TotInt_129N_DO-Set03: 2.701144
+  TotInt_129C_DO-Set03: 2.564616
+  TotInt_130N_DO-Set03: 2.740107
+  TotInt_130C_DO-Set03: 3.759876
+  TotInt_131N_DO-Set03: 2.603079
+  TotInt_131C_DO-Set03: 2.734054
+DO-Set04 SL Norm Factors:
+  TotInt_126C_DO-Set04: 2.350687
+  TotInt_127N_DO-Set04: 2.278089
+  TotInt_127C_DO-Set04: 1.835713
+  TotInt_128N_DO-Set04: 1.942978
+  TotInt_128C_DO-Set04: 1.826580
+  TotInt_129N_DO-Set04: 2.055487
+  TotInt_129C_DO-Set04: 2.059947
+  TotInt_130N_DO-Set04: 2.126479
+  TotInt_130C_DO-Set04: 2.082752
+  TotInt_131N_DO-Set04: 3.691422
+  TotInt_131C_DO-Set04: 2.143848
+DO-Set05 SL Norm Factors:
+  TotInt_126C_DO-Set05: 1.327372
+  TotInt_127N_DO-Set05: 0.964041
+  TotInt_127C_DO-Set05: 0.949081
+  TotInt_128N_DO-Set05: 1.263598
+  TotInt_128C_DO-Set05: 0.941022
+  TotInt_129N_DO-Set05: 0.779849
+  TotInt_129C_DO-Set05: 0.842642
+  TotInt_130N_DO-Set05: 1.425112
+  TotInt_130C_DO-Set05: 1.009965
+  TotInt_131N_DO-Set05: 1.456293
+  TotInt_131C_DO-Set05: 1.047566
+DO-Set06 SL Norm Factors:
+  TotInt_126C_DO-Set06: 0.931034
+  TotInt_127N_DO-Set06: 1.428547
+  TotInt_127C_DO-Set06: 0.855715
+  TotInt_128N_DO-Set06: 1.203343
+  TotInt_128C_DO-Set06: 0.872638
+  TotInt_129N_DO-Set06: 0.843811
+  TotInt_129C_DO-Set06: 0.747847
+  TotInt_130N_DO-Set06: 0.891782
+  TotInt_130C_DO-Set06: 0.938986
+  TotInt_131N_DO-Set06: 1.525430
+  TotInt_131C_DO-Set06: 0.972401
+DO-Set07 SL Norm Factors:
+  TotInt_126C_DO-Set07: 0.856274
+  TotInt_127N_DO-Set07: 0.994292
+  TotInt_127C_DO-Set07: 0.982154
+  TotInt_128N_DO-Set07: 1.426751
+  TotInt_128C_DO-Set07: 0.919544
+  TotInt_129N_DO-Set07: 1.013080
+  TotInt_129C_DO-Set07: 1.311801
+  TotInt_130N_DO-Set07: 1.221501
+  TotInt_130C_DO-Set07: 1.285319
+  TotInt_131N_DO-Set07: 1.544502
+  TotInt_131C_DO-Set07: 1.114369
+DO-Set08 SL Norm Factors:
+  TotInt_126C_DO-Set08: 3.534707
+  TotInt_127N_DO-Set08: 2.359329
+  TotInt_127C_DO-Set08: 1.844283
+  TotInt_128N_DO-Set08: 1.698930
+  TotInt_128C_DO-Set08: 1.612579
+  TotInt_129N_DO-Set08: 1.894409
+  TotInt_129C_DO-Set08: 1.639306
+  TotInt_130N_DO-Set08: 2.595063
+  TotInt_130C_DO-Set08: 2.356657
+  TotInt_131N_DO-Set08: 2.422409
+  TotInt_131C_DO-Set08: 2.075517
+DO-Set09 SL Norm Factors:
+  TotInt_126C_DO-Set09: 0.614487
+  TotInt_127N_DO-Set09: 0.446121
+  TotInt_127C_DO-Set09: 0.593005
+  TotInt_128N_DO-Set09: 0.453400
+  TotInt_128C_DO-Set09: 0.949866
+  TotInt_129N_DO-Set09: 0.596887
+  TotInt_129C_DO-Set09: 0.706495
+  TotInt_130N_DO-Set09: 0.787336
+  TotInt_130C_DO-Set09: 0.772335
+  TotInt_131N_DO-Set09: 0.659375
+  TotInt_131C_DO-Set09: 0.625553
+DO-Set10 SL Norm Factors:
+  TotInt_126C_DO-Set10: 1.196479
+  TotInt_127N_DO-Set10: 1.570831
+  TotInt_127C_DO-Set10: 1.249252
+  TotInt_128N_DO-Set10: 1.987132
+  TotInt_128C_DO-Set10: 1.255882
+  TotInt_129N_DO-Set10: 1.833698
+  TotInt_129C_DO-Set10: 1.185309
+  TotInt_130N_DO-Set10: 1.558570
+  TotInt_130C_DO-Set10: 1.791283
+  TotInt_131N_DO-Set10: 4.792359
+  TotInt_131C_DO-Set10: 1.569881
+DO-Set11 SL Norm Factors:
+  TotInt_126C_DO-Set11: 0.779194
+  TotInt_127N_DO-Set11: 0.532565
+  TotInt_127C_DO-Set11: 0.552197
+  TotInt_128N_DO-Set11: 0.439197
+  TotInt_128C_DO-Set11: 0.613712
+  TotInt_129N_DO-Set11: 0.796878
+  TotInt_129C_DO-Set11: 0.506906
+  TotInt_130N_DO-Set11: 0.541264
+  TotInt_130C_DO-Set11: 0.601461
+  TotInt_131N_DO-Set11: 0.944382
+  TotInt_131C_DO-Set11: 0.599699
+DO-Set12 SL Norm Factors:
+  TotInt_126C_DO-Set12: 0.595584
+  TotInt_127N_DO-Set12: 0.655357
+  TotInt_127C_DO-Set12: 0.649946
+  TotInt_128N_DO-Set12: 0.826346
+  TotInt_128C_DO-Set12: 0.797223
+  TotInt_129N_DO-Set12: 0.914811
+  TotInt_129C_DO-Set12: 0.463987
+  TotInt_130N_DO-Set12: 0.735298
+  TotInt_130C_DO-Set12: 0.690492
+  TotInt_131N_DO-Set12: 0.848888
+  TotInt_131C_DO-Set12: 0.692396
+DO-Set13 SL Norm Factors:
+  TotInt_126C_DO-Set13: 0.900412
+  TotInt_127N_DO-Set13: 0.705431
+  TotInt_127C_DO-Set13: 0.918717
+  TotInt_128N_DO-Set13: 0.720968
+  TotInt_128C_DO-Set13: 0.812699
+  TotInt_129N_DO-Set13: 0.917515
+  TotInt_129C_DO-Set13: 0.834402
+  TotInt_130N_DO-Set13: 0.738267
+  TotInt_130C_DO-Set13: 0.843079
+  TotInt_131N_DO-Set13: 0.826273
+  TotInt_131C_DO-Set13: 0.814769
+DO-Set14 SL Norm Factors:
+  TotInt_126C_DO-Set14: 1.416042
+  TotInt_127N_DO-Set14: 1.022670
+  TotInt_127C_DO-Set14: 1.287620
+  TotInt_128N_DO-Set14: 0.721073
+  TotInt_128C_DO-Set14: 1.083583
+  TotInt_129N_DO-Set14: 1.279498
+  TotInt_129C_DO-Set14: 1.029632
+  TotInt_130N_DO-Set14: 1.080098
+  TotInt_130C_DO-Set14: 0.881213
+  TotInt_131N_DO-Set14: 0.670848
+  TotInt_131C_DO-Set14: 0.992614
+DO-Set15 SL Norm Factors:
+  TotInt_126C_DO-Set15: 0.695642
+  TotInt_127N_DO-Set15: 0.610513
+  TotInt_127C_DO-Set15: 0.589537
+  TotInt_128N_DO-Set15: 0.587204
+  TotInt_128C_DO-Set15: 0.798411
+  TotInt_129N_DO-Set15: 0.560855
+  TotInt_129C_DO-Set15: 0.993097
+  TotInt_130N_DO-Set15: 0.703418
+  TotInt_130C_DO-Set15: 0.787398
+  TotInt_131N_DO-Set15: 0.774685
+  TotInt_131C_DO-Set15: 0.689673
+DO-Set16 SL Norm Factors:
+  TotInt_126C_DO-Set16: 1.063668
+  TotInt_127N_DO-Set16: 1.235177
+  TotInt_127C_DO-Set16: 1.083079
+  TotInt_128N_DO-Set16: 0.856090
+  TotInt_128C_DO-Set16: 1.039287
+  TotInt_129N_DO-Set16: 0.856375
+  TotInt_129C_DO-Set16: 1.221602
+  TotInt_130N_DO-Set16: 1.035862
+  TotInt_130C_DO-Set16: 1.461886
+  TotInt_131N_DO-Set16: 1.543203
+  TotInt_131C_DO-Set16: 1.100464
+DO-Set17 SL Norm Factors:
+  TotInt_126C_DO-Set17: 0.960069
+  TotInt_127N_DO-Set17: 1.193615
+  TotInt_127C_DO-Set17: 0.813128
+  TotInt_128N_DO-Set17: 0.888707
+  TotInt_128C_DO-Set17: 1.429600
+  TotInt_129N_DO-Set17: 1.430151
+  TotInt_129C_DO-Set17: 0.893698
+  TotInt_130N_DO-Set17: 2.162613
+  TotInt_130C_DO-Set17: 1.044707
+  TotInt_131N_DO-Set17: 2.197575
+  TotInt_131C_DO-Set17: 1.159184
+DO-Set18 SL Norm Factors:
+  TotInt_126C_DO-Set18: 1.112548
+  TotInt_127N_DO-Set18: 1.264052
+  TotInt_127C_DO-Set18: 0.912077
+  TotInt_128N_DO-Set18: 1.032386
+  TotInt_128C_DO-Set18: 1.370390
+  TotInt_129N_DO-Set18: 0.943462
+  TotInt_129C_DO-Set18: 1.373450
+  TotInt_130N_DO-Set18: 1.018192
+  TotInt_130C_DO-Set18: 0.968666
+  TotInt_131N_DO-Set18: 1.298670
+  TotInt_131C_DO-Set18: 1.104092
+DO-Set19 SL Norm Factors:
+  TotInt_126C_DO-Set19: 1.805464
+  TotInt_127N_DO-Set19: 1.609794
+  TotInt_127C_DO-Set19: 1.145074
+  TotInt_128N_DO-Set19: 1.603836
+  TotInt_128C_DO-Set19: 1.172695
+  TotInt_129N_DO-Set19: 1.216836
+  TotInt_129C_DO-Set19: 1.372131
+  TotInt_130N_DO-Set19: 1.177126
+  TotInt_130C_DO-Set19: 1.205276
+  TotInt_131N_DO-Set19: 1.158601
+  TotInt_131C_DO-Set19: 1.312760
+DO-Set20 SL Norm Factors:
+  TotInt_126C_DO-Set20: 1.475217
+  TotInt_127N_DO-Set20: 0.811161
+  TotInt_127C_DO-Set20: 1.122665
+  TotInt_128N_DO-Set20: 1.000610
+  TotInt_128C_DO-Set20: 0.746735
+  TotInt_129N_DO-Set20: 0.812233
+  TotInt_129C_DO-Set20: 0.927149
+  TotInt_130N_DO-Set20: 0.573708
+  TotInt_130C_DO-Set20: 0.783096
+  TotInt_131N_DO-Set20: 1.958219
+  TotInt_131C_DO-Set20: 0.910713
+
+number of non-contaminant/decoy proteins: 8340
+number of proteins with full intensity sets: 4804
