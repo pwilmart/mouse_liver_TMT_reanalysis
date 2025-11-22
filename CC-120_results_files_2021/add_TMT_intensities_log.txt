@@ -1,0 +1,631 @@
+
+===============================================================
+ add_TMT_intensities.py, v1.0.1, written by Phil Wilmarth, OHSU
+===============================================================
+results file: grouped_protein_summary_9.txt
+trimmed average intensity must exceed: 750.0
+final zero values replaced with: 200.0
+getting intensities from SQT/TXT files
+
+LC run: a13392_TMT12_11_filtered.txt
+Total: 7341, reject: 245, net: 7096, reject rate: 3.34%
+  Reject breakdown: empty: 73, weak: 172
+
+LC run: a13391_TMT12_12_filtered.txt
+Total: 7518, reject: 174, net: 7344, reject rate: 2.31%
+  Reject breakdown: empty: 52, weak: 122
+
+LC run: a13390_TMT12_2_filtered.txt
+Total: 7489, reject: 172, net: 7317, reject rate: 2.30%
+  Reject breakdown: empty: 40, weak: 132
+
+LC run: a13389_TMT12_1_filtered.txt
+Total: 7645, reject: 192, net: 7453, reject rate: 2.51%
+  Reject breakdown: empty: 50, weak: 142
+
+LC run: a13388_TMT12_3_filtered.txt
+Total: 7893, reject: 156, net: 7737, reject rate: 1.98%
+  Reject breakdown: empty: 35, weak: 121
+
+LC run: a13387_TMT12_4_filtered.txt
+Total: 7756, reject: 183, net: 7573, reject rate: 2.36%
+  Reject breakdown: empty: 44, weak: 139
+
+LC run: a13386_TMT12_5_filtered.txt
+Total: 7284, reject: 157, net: 7127, reject rate: 2.16%
+  Reject breakdown: empty: 44, weak: 113
+
+LC run: a13385_TMT12_6_filtered.txt
+Total: 7355, reject: 198, net: 7157, reject rate: 2.69%
+  Reject breakdown: empty: 47, weak: 151
+
+LC run: a13384_TMT12_7_filtered.txt
+Total: 7381, reject: 205, net: 7176, reject rate: 2.78%
+  Reject breakdown: empty: 59, weak: 146
+
+LC run: a13383_TMT12_8_filtered.txt
+Total: 7277, reject: 214, net: 7063, reject rate: 2.94%
+  Reject breakdown: empty: 63, weak: 151
+
+LC run: a13382_TMT12_9_filtered.txt
+Total: 7742, reject: 166, net: 7576, reject rate: 2.14%
+  Reject breakdown: empty: 56, weak: 110
+
+LC run: a13381_TMT12_10_filtered.txt
+Total: 7269, reject: 172, net: 7097, reject rate: 2.37%
+  Reject breakdown: empty: 53, weak: 119
+
+LC run: a13379_TMT11_12_filtered.txt
+Total: 7325, reject: 160, net: 7165, reject rate: 2.18%
+  Reject breakdown: empty: 44, weak: 116
+
+LC run: a13378_TMT11_11_filtered.txt
+Total: 7437, reject: 145, net: 7292, reject rate: 1.95%
+  Reject breakdown: empty: 37, weak: 108
+
+LC run: a13377_TMT11_10_filtered.txt
+Total: 7448, reject: 182, net: 7266, reject rate: 2.44%
+  Reject breakdown: empty: 57, weak: 125
+
+LC run: a13376_TMT11_9_filtered.txt
+Total: 874, reject: 560, net: 314, reject rate: 64.07%
+  Reject breakdown: empty: 360, weak: 200
+
+LC run: a13375_TMT11_8_filtered.txt
+Total: 7746, reject: 224, net: 7522, reject rate: 2.89%
+  Reject breakdown: empty: 70, weak: 154
+
+LC run: a13374_TMT11_7_filtered.txt
+Total: 7614, reject: 184, net: 7430, reject rate: 2.42%
+  Reject breakdown: empty: 59, weak: 125
+
+LC run: a13373_TMT11_6_filtered.txt
+Total: 6894, reject: 210, net: 6684, reject rate: 3.05%
+  Reject breakdown: empty: 84, weak: 126
+
+LC run: a13372_TMT11_5_filtered.txt
+Total: 7831, reject: 189, net: 7642, reject rate: 2.41%
+  Reject breakdown: empty: 56, weak: 133
+
+LC run: a13371_TMT11_4_filtered.txt
+Total: 7470, reject: 199, net: 7271, reject rate: 2.66%
+  Reject breakdown: empty: 70, weak: 129
+
+LC run: a13370_20190416084014_TMT11_3_filtered.txt
+Total: 7601, reject: 83, net: 7518, reject rate: 1.09%
+  Reject breakdown: empty: 22, weak: 61
+
+LC run: a13369_TMT11_2_filtered.txt
+Total: 7470, reject: 147, net: 7323, reject rate: 1.97%
+  Reject breakdown: empty: 58, weak: 89
+
+LC run: a13368_TMT11_1_filtered.txt
+Total: 7109, reject: 118, net: 6991, reject rate: 1.66%
+  Reject breakdown: empty: 41, weak: 77
+
+LC run: a11296_TMT4_12_filtered.txt
+Total: 7309, reject: 30, net: 7279, reject rate: 0.41%
+  Reject breakdown: empty: 5, weak: 25
+
+LC run: a11295_TMT4_11_filtered.txt
+Total: 7576, reject: 45, net: 7531, reject rate: 0.59%
+  Reject breakdown: empty: 11, weak: 34
+
+LC run: a11294_TMT4_10_filtered.txt
+Total: 7033, reject: 53, net: 6980, reject rate: 0.75%
+  Reject breakdown: empty: 17, weak: 36
+
+LC run: a11293_TMT4_9_filtered.txt
+Total: 7317, reject: 54, net: 7263, reject rate: 0.74%
+  Reject breakdown: empty: 16, weak: 38
+
+LC run: a11292_TMT4_8_filtered.txt
+Total: 7135, reject: 32, net: 7103, reject rate: 0.45%
+  Reject breakdown: empty: 11, weak: 21
+
+LC run: a11291_TMT4_7_filtered.txt
+Total: 7171, reject: 43, net: 7128, reject rate: 0.60%
+  Reject breakdown: empty: 8, weak: 35
+
+LC run: a11290_TMT4_4_filtered.txt
+Total: 7174, reject: 50, net: 7124, reject rate: 0.70%
+  Reject breakdown: empty: 18, weak: 32
+
+LC run: a11289_TMT4_2_filtered.txt
+Total: 7238, reject: 46, net: 7192, reject rate: 0.64%
+  Reject breakdown: empty: 14, weak: 32
+
+LC run: a11287_TMT3_12_filtered.txt
+Total: 7156, reject: 57, net: 7099, reject rate: 0.80%
+  Reject breakdown: empty: 16, weak: 41
+
+LC run: a11286_TMT3_10_filtered.txt
+Total: 6791, reject: 66, net: 6725, reject rate: 0.97%
+  Reject breakdown: empty: 15, weak: 51
+
+LC run: a11285_TMT3_8_filtered.txt
+Total: 6953, reject: 73, net: 6880, reject rate: 1.05%
+  Reject breakdown: empty: 19, weak: 54
+
+LC run: a11284_TMT3_7_filtered.txt
+Total: 7237, reject: 73, net: 7164, reject rate: 1.01%
+  Reject breakdown: empty: 15, weak: 58
+
+LC run: a11283_TMT3_6_filtered.txt
+Total: 7183, reject: 54, net: 7129, reject rate: 0.75%
+  Reject breakdown: empty: 16, weak: 38
+
+LC run: a11282_TMT3_5_filtered.txt
+Total: 7438, reject: 50, net: 7388, reject rate: 0.67%
+  Reject breakdown: empty: 16, weak: 34
+
+LC run: a11281_TMT3_1_filtered.txt
+Total: 7456, reject: 44, net: 7412, reject rate: 0.59%
+  Reject breakdown: empty: 16, weak: 28
+
+LC run: a11279_20181013093707_TMT5_12_filtered.txt
+Total: 7604, reject: 40, net: 7564, reject rate: 0.53%
+  Reject breakdown: empty: 15, weak: 25
+
+LC run: a11278_TMT5_11_filtered.txt
+Total: 7829, reject: 30, net: 7799, reject rate: 0.38%
+  Reject breakdown: empty: 9, weak: 21
+
+LC run: a11277_TMT5_10_filtered.txt
+Total: 7395, reject: 54, net: 7341, reject rate: 0.73%
+  Reject breakdown: empty: 17, weak: 37
+
+LC run: a11276_TMT5_9_filtered.txt
+Total: 7883, reject: 50, net: 7833, reject rate: 0.63%
+  Reject breakdown: empty: 18, weak: 32
+
+LC run: a11275_TMT5_8_filtered.txt
+Total: 7478, reject: 44, net: 7434, reject rate: 0.59%
+  Reject breakdown: empty: 11, weak: 33
+
+LC run: a11274_TMT5_7_filtered.txt
+Total: 7714, reject: 51, net: 7663, reject rate: 0.66%
+  Reject breakdown: empty: 9, weak: 42
+
+LC run: a11273_TMT5_6_filtered.txt
+Total: 7984, reject: 30, net: 7954, reject rate: 0.38%
+  Reject breakdown: empty: 13, weak: 17
+
+LC run: a11272_TMT5_5_filtered.txt
+Total: 7674, reject: 42, net: 7632, reject rate: 0.55%
+  Reject breakdown: empty: 16, weak: 26
+
+LC run: a11271_TMT5_4_filtered.txt
+Total: 7575, reject: 52, net: 7523, reject rate: 0.69%
+  Reject breakdown: empty: 10, weak: 42
+
+LC run: a11270_TMT5_3_filtered.txt
+Total: 7566, reject: 38, net: 7528, reject rate: 0.50%
+  Reject breakdown: empty: 13, weak: 25
+
+LC run: a11269_TMT5_2_filtered.txt
+Total: 7905, reject: 39, net: 7866, reject rate: 0.49%
+  Reject breakdown: empty: 14, weak: 25
+
+LC run: a11268_TMT5_1_filtered.txt
+Total: 7901, reject: 37, net: 7864, reject rate: 0.47%
+  Reject breakdown: empty: 6, weak: 31
+
+LC run: a11266_TMT10_12_filtered.txt
+Total: 7490, reject: 50, net: 7440, reject rate: 0.67%
+  Reject breakdown: empty: 15, weak: 35
+
+LC run: a11265_TMT10_11_filtered.txt
+Total: 7544, reject: 47, net: 7497, reject rate: 0.62%
+  Reject breakdown: empty: 13, weak: 34
+
+LC run: a11264_TMT10_10_filtered.txt
+Total: 7078, reject: 56, net: 7022, reject rate: 0.79%
+  Reject breakdown: empty: 14, weak: 42
+
+LC run: a11263_TMT10_9_filtered.txt
+Total: 7465, reject: 39, net: 7426, reject rate: 0.52%
+  Reject breakdown: empty: 8, weak: 31
+
+LC run: a11262_TMT10_8_filtered.txt
+Total: 7323, reject: 57, net: 7266, reject rate: 0.78%
+  Reject breakdown: empty: 12, weak: 45
+
+LC run: a11261_TMT10_7_filtered.txt
+Total: 7496, reject: 51, net: 7445, reject rate: 0.68%
+  Reject breakdown: empty: 14, weak: 37
+
+LC run: a11260_TMT10_6_filtered.txt
+Total: 7424, reject: 44, net: 7380, reject rate: 0.59%
+  Reject breakdown: empty: 9, weak: 35
+
+LC run: a11259_TMT10_5_filtered.txt
+Total: 7464, reject: 49, net: 7415, reject rate: 0.66%
+  Reject breakdown: empty: 11, weak: 38
+
+LC run: a11258_TMT10_4_filtered.txt
+Total: 7390, reject: 54, net: 7336, reject rate: 0.73%
+  Reject breakdown: empty: 11, weak: 43
+
+LC run: a11257_TMT10_3_filtered.txt
+Total: 7304, reject: 62, net: 7242, reject rate: 0.85%
+  Reject breakdown: empty: 23, weak: 39
+
+LC run: a11256_TMT10_2_filtered.txt
+Total: 7511, reject: 44, net: 7467, reject rate: 0.59%
+  Reject breakdown: empty: 11, weak: 33
+
+LC run: a11255_TMT10_1_filtered.txt
+Total: 7390, reject: 55, net: 7335, reject rate: 0.74%
+  Reject breakdown: empty: 11, weak: 44
+
+LC run: a11253_TMT9_12_filtered.txt
+Total: 7855, reject: 44, net: 7811, reject rate: 0.56%
+  Reject breakdown: empty: 12, weak: 32
+
+LC run: a11252_TMT9_11_filtered.txt
+Total: 7739, reject: 43, net: 7696, reject rate: 0.56%
+  Reject breakdown: empty: 10, weak: 33
+
+LC run: a11251_TMT9_10_filtered.txt
+Total: 7423, reject: 54, net: 7369, reject rate: 0.73%
+  Reject breakdown: empty: 12, weak: 42
+
+LC run: a11250_TMT9_9_filtered.txt
+Total: 7717, reject: 57, net: 7660, reject rate: 0.74%
+  Reject breakdown: empty: 21, weak: 36
+
+LC run: a11249_TMT9_8_filtered.txt
+Total: 7818, reject: 70, net: 7748, reject rate: 0.90%
+  Reject breakdown: empty: 12, weak: 58
+
+LC run: a11248_TMT9_7_filtered.txt
+Total: 7646, reject: 56, net: 7590, reject rate: 0.73%
+  Reject breakdown: empty: 11, weak: 45
+
+LC run: a11247_TMT9_6_filtered.txt
+Total: 7751, reject: 69, net: 7682, reject rate: 0.89%
+  Reject breakdown: empty: 17, weak: 52
+
+LC run: a11246_TMT9_5_filtered.txt
+Total: 7531, reject: 56, net: 7475, reject rate: 0.74%
+  Reject breakdown: empty: 13, weak: 43
+
+LC run: a11245_TMT9_4_filtered.txt
+Total: 7661, reject: 69, net: 7592, reject rate: 0.90%
+  Reject breakdown: empty: 11, weak: 58
+
+LC run: a11244_TMT9_3_filtered.txt
+Total: 7421, reject: 55, net: 7366, reject rate: 0.74%
+  Reject breakdown: empty: 21, weak: 34
+
+LC run: a11243_TMT9_2_filtered.txt
+Total: 7919, reject: 48, net: 7871, reject rate: 0.61%
+  Reject breakdown: empty: 14, weak: 34
+
+LC run: a11242_TMT9_1_filtered.txt
+Total: 7793, reject: 38, net: 7755, reject rate: 0.49%
+  Reject breakdown: empty: 8, weak: 30
+
+LC run: a11240_TMT8_12_filtered.txt
+Total: 7873, reject: 44, net: 7829, reject rate: 0.56%
+  Reject breakdown: empty: 19, weak: 25
+
+LC run: a11239_TMT8_11_filtered.txt
+Total: 8142, reject: 33, net: 8109, reject rate: 0.41%
+  Reject breakdown: empty: 9, weak: 24
+
+LC run: a11238_TMT8_10_filtered.txt
+Total: 7789, reject: 45, net: 7744, reject rate: 0.58%
+  Reject breakdown: empty: 12, weak: 33
+
+LC run: a11237_TMT8_9_filtered.txt
+Total: 7959, reject: 70, net: 7889, reject rate: 0.88%
+  Reject breakdown: empty: 15, weak: 55
+
+LC run: a11236_TMT8_8_filtered.txt
+Total: 7841, reject: 69, net: 7772, reject rate: 0.88%
+  Reject breakdown: empty: 18, weak: 51
+
+LC run: a11235_TMT8_7_filtered.txt
+Total: 8348, reject: 50, net: 8298, reject rate: 0.60%
+  Reject breakdown: empty: 17, weak: 33
+
+LC run: a11234_TMT8_6_filtered.txt
+Total: 8374, reject: 59, net: 8315, reject rate: 0.70%
+  Reject breakdown: empty: 18, weak: 41
+
+LC run: a11233_TMT8_5_filtered.txt
+Total: 8386, reject: 40, net: 8346, reject rate: 0.48%
+  Reject breakdown: empty: 11, weak: 29
+
+LC run: a11232_TMT8_4_filtered.txt
+Total: 7540, reject: 108, net: 7432, reject rate: 1.43%
+  Reject breakdown: empty: 25, weak: 83
+
+LC run: a11231_TMT8_3_filtered.txt
+Total: 7868, reject: 53, net: 7815, reject rate: 0.67%
+  Reject breakdown: empty: 17, weak: 36
+
+LC run: a11230_TMT8_2_filtered.txt
+Total: 8075, reject: 60, net: 8015, reject rate: 0.74%
+  Reject breakdown: empty: 14, weak: 46
+
+LC run: a11229_TMT8_1_filtered.txt
+Total: 7678, reject: 54, net: 7624, reject rate: 0.70%
+  Reject breakdown: empty: 10, weak: 44
+
+LC run: a11227_TMT7_12_filtered.txt
+Total: 8038, reject: 68, net: 7970, reject rate: 0.85%
+  Reject breakdown: empty: 17, weak: 51
+
+LC run: a11226_TMT7_11_filtered.txt
+Total: 8387, reject: 27, net: 8360, reject rate: 0.32%
+  Reject breakdown: empty: 6, weak: 21
+
+LC run: a11225_TMT7_10_filtered.txt
+Total: 7957, reject: 73, net: 7884, reject rate: 0.92%
+  Reject breakdown: empty: 17, weak: 56
+
+LC run: a11224_TMT7_9_filtered.txt
+Total: 8559, reject: 57, net: 8502, reject rate: 0.67%
+  Reject breakdown: empty: 17, weak: 40
+
+LC run: a11223_TMT7_8_filtered.txt
+Total: 8193, reject: 53, net: 8140, reject rate: 0.65%
+  Reject breakdown: empty: 22, weak: 31
+
+LC run: a11222_TMT7_7_filtered.txt
+Total: 8381, reject: 60, net: 8321, reject rate: 0.72%
+  Reject breakdown: empty: 14, weak: 46
+
+LC run: a11221_TMT7_6_filtered.txt
+Total: 8206, reject: 66, net: 8140, reject rate: 0.80%
+  Reject breakdown: empty: 14, weak: 52
+
+LC run: a11220_TMT7_5_filtered.txt
+Total: 7935, reject: 59, net: 7876, reject rate: 0.74%
+  Reject breakdown: empty: 10, weak: 49
+
+LC run: a11219_TMT7_4_filtered.txt
+Total: 8021, reject: 75, net: 7946, reject rate: 0.94%
+  Reject breakdown: empty: 14, weak: 61
+
+LC run: a11218_TMT7_3_filtered.txt
+Total: 7650, reject: 51, net: 7599, reject rate: 0.67%
+  Reject breakdown: empty: 20, weak: 31
+
+LC run: a11217_TMT7_2_filtered.txt
+Total: 7958, reject: 70, net: 7888, reject rate: 0.88%
+  Reject breakdown: empty: 19, weak: 51
+
+LC run: a11216_TMT7_1_filtered.txt
+Total: 7856, reject: 59, net: 7797, reject rate: 0.75%
+  Reject breakdown: empty: 15, weak: 44
+
+LC run: a11214_TMT6_12_filtered.txt
+Total: 7765, reject: 56, net: 7709, reject rate: 0.72%
+  Reject breakdown: empty: 19, weak: 37
+
+LC run: a11213_TMT6_11_filtered.txt
+Total: 8282, reject: 53, net: 8229, reject rate: 0.64%
+  Reject breakdown: empty: 14, weak: 39
+
+LC run: a11212_TMT6_10_filtered.txt
+Total: 7398, reject: 51, net: 7347, reject rate: 0.69%
+  Reject breakdown: empty: 10, weak: 41
+
+LC run: a11211_TMT6_9_filtered.txt
+Total: 8138, reject: 55, net: 8083, reject rate: 0.68%
+  Reject breakdown: empty: 18, weak: 37
+
+LC run: a11210_TMT6_8_filtered.txt
+Total: 8031, reject: 64, net: 7967, reject rate: 0.80%
+  Reject breakdown: empty: 17, weak: 47
+
+LC run: a11209_TMT6_7_filtered.txt
+Total: 8687, reject: 44, net: 8643, reject rate: 0.51%
+  Reject breakdown: empty: 13, weak: 31
+
+LC run: a11208_TMT6_6_filtered.txt
+Total: 8058, reject: 161, net: 7897, reject rate: 2.00%
+  Reject breakdown: empty: 20, weak: 141
+
+LC run: a11207_TMT6_5_filtered.txt
+Total: 8374, reject: 47, net: 8327, reject rate: 0.56%
+  Reject breakdown: empty: 15, weak: 32
+
+LC run: a11206_TMT6_4_filtered.txt
+Total: 7978, reject: 13, net: 7965, reject rate: 0.16%
+  Reject breakdown: empty: 0, weak: 13
+
+LC run: a11205_TMT6_3_filtered.txt
+Total: 8747, reject: 41, net: 8706, reject rate: 0.47%
+  Reject breakdown: empty: 17, weak: 24
+
+LC run: a11204_TMT6_2_filtered.txt
+Total: 8840, reject: 42, net: 8798, reject rate: 0.48%
+  Reject breakdown: empty: 17, weak: 25
+
+LC run: a11203_TMT6_1_filtered.txt
+Total: 8417, reject: 36, net: 8381, reject rate: 0.43%
+  Reject breakdown: empty: 8, weak: 28
+
+LC run: a11182_TMT4_6_filtered.txt
+Total: 7691, reject: 60, net: 7631, reject rate: 0.78%
+  Reject breakdown: empty: 12, weak: 48
+
+LC run: a11181_TMT4_5_filtered.txt
+Total: 7144, reject: 45, net: 7099, reject rate: 0.63%
+  Reject breakdown: empty: 13, weak: 32
+
+LC run: a11179_TMT4_3_filtered.txt
+Total: 6843, reject: 132, net: 6711, reject rate: 1.93%
+  Reject breakdown: empty: 32, weak: 100
+
+LC run: a11177_TMT4_1_filtered.txt
+Total: 6979, reject: 202, net: 6777, reject rate: 2.89%
+  Reject breakdown: empty: 52, weak: 150
+
+LC run: a11174_TMT3_11_filtered.txt
+Total: 7444, reject: 45, net: 7399, reject rate: 0.60%
+  Reject breakdown: empty: 11, weak: 34
+
+LC run: a11172_TMT3_9_filtered.txt
+Total: 7628, reject: 68, net: 7560, reject rate: 0.89%
+  Reject breakdown: empty: 22, weak: 46
+
+LC run: a11167_TMT3_4_filtered.txt
+Total: 7475, reject: 76, net: 7399, reject rate: 1.02%
+  Reject breakdown: empty: 25, weak: 51
+
+LC run: a11166_TMT3_3_filtered.txt
+Total: 7536, reject: 53, net: 7483, reject rate: 0.70%
+  Reject breakdown: empty: 17, weak: 36
+
+LC run: a11165_TMT3_2_filtered.txt
+Total: 7510, reject: 77, net: 7433, reject rate: 1.03%
+  Reject breakdown: empty: 19, weak: 58
+
+LC run: a11162_TMT2_12_filtered.txt
+Total: 7657, reject: 53, net: 7604, reject rate: 0.69%
+  Reject breakdown: empty: 15, weak: 38
+
+LC run: a11161_TMT2_11_filtered.txt
+Total: 7721, reject: 78, net: 7643, reject rate: 1.01%
+  Reject breakdown: empty: 17, weak: 61
+
+LC run: a11160_TMT2_10_filtered.txt
+Total: 7486, reject: 66, net: 7420, reject rate: 0.88%
+  Reject breakdown: empty: 17, weak: 49
+
+LC run: a11159_TMT2_9_filtered.txt
+Total: 7795, reject: 87, net: 7708, reject rate: 1.12%
+  Reject breakdown: empty: 25, weak: 62
+
+LC run: a11158_TMT2_8_filtered.txt
+Total: 7629, reject: 106, net: 7523, reject rate: 1.39%
+  Reject breakdown: empty: 21, weak: 85
+
+LC run: a11157_TMT2_7_filtered.txt
+Total: 7950, reject: 118, net: 7832, reject rate: 1.48%
+  Reject breakdown: empty: 34, weak: 84
+
+LC run: a11156_TMT2_6_filtered.txt
+Total: 7980, reject: 146, net: 7834, reject rate: 1.83%
+  Reject breakdown: empty: 40, weak: 106
+
+LC run: a11155_TMT2_5_filtered.txt
+Total: 7351, reject: 75, net: 7276, reject rate: 1.02%
+  Reject breakdown: empty: 18, weak: 57
+
+LC run: a11154_TMT2_4_filtered.txt
+Total: 7595, reject: 65, net: 7530, reject rate: 0.86%
+  Reject breakdown: empty: 26, weak: 39
+
+LC run: a11153_TMT2_3_filtered.txt
+Total: 7536, reject: 79, net: 7457, reject rate: 1.05%
+  Reject breakdown: empty: 24, weak: 55
+
+LC run: a11152_TMT2_2_filtered.txt
+Total: 7696, reject: 57, net: 7639, reject rate: 0.74%
+  Reject breakdown: empty: 21, weak: 36
+
+LC run: a11151_TMT2_1_filtered.txt
+Total: 7734, reject: 63, net: 7671, reject rate: 0.81%
+  Reject breakdown: empty: 15, weak: 48
+
+LC run: a11149_TMT1_12_filtered.txt
+Total: 7428, reject: 75, net: 7353, reject rate: 1.01%
+  Reject breakdown: empty: 18, weak: 57
+
+LC run: a11148_TMT1_11_filtered.txt
+Total: 7688, reject: 47, net: 7641, reject rate: 0.61%
+  Reject breakdown: empty: 9, weak: 38
+
+LC run: a11147_TMT1_10_filtered.txt
+Total: 7183, reject: 74, net: 7109, reject rate: 1.03%
+  Reject breakdown: empty: 14, weak: 60
+
+LC run: a11146_TMT1_9_filtered.txt
+Total: 7814, reject: 65, net: 7749, reject rate: 0.83%
+  Reject breakdown: empty: 10, weak: 55
+
+LC run: a11145_TMT1_8_filtered.txt
+Total: 7817, reject: 79, net: 7738, reject rate: 1.01%
+  Reject breakdown: empty: 12, weak: 67
+
+LC run: a11144_TMT1_7_filtered.txt
+Total: 7493, reject: 78, net: 7415, reject rate: 1.04%
+  Reject breakdown: empty: 18, weak: 60
+
+LC run: a11143_TMT1_6_filtered.txt
+Total: 7377, reject: 61, net: 7316, reject rate: 0.83%
+  Reject breakdown: empty: 9, weak: 52
+
+LC run: a11142_TMT1_5_filtered.txt
+Total: 6774, reject: 41, net: 6733, reject rate: 0.61%
+  Reject breakdown: empty: 8, weak: 33
+
+LC run: a11141_TMT1_4_filtered.txt
+Total: 6915, reject: 36, net: 6879, reject rate: 0.52%
+  Reject breakdown: empty: 8, weak: 28
+
+LC run: a11140_20180928161309_TMT1_3_filtered.txt
+Total: 7364, reject: 58, net: 7306, reject rate: 0.79%
+  Reject breakdown: empty: 15, weak: 43
+
+LC run: a11139_20180928132037_TMT1_2_filtered.txt
+Total: 7540, reject: 53, net: 7487, reject rate: 0.70%
+  Reject breakdown: empty: 14, weak: 39
+
+LC run: a11138_20180928102805_TMT1_1_filtered.txt
+Total: 7353, reject: 60, net: 7293, reject rate: 0.82%
+  Reject breakdown: empty: 11, weak: 49
+
+total PSMs with added reporter ions: 1093452
+total PSMs with empty reporter ions: 3412
+total PSMs with intensities below cutoff: 8311
+total PSMs with zeroed reporter ions: 11723
+overall reject rate: 1.07%
+length of tmt_intensity_dict: 1093452
+length of peptide_dict: 151403
+length of unique_peptide_dict: 145850
+non-redundant peptide sequence count: 111317
+TMT01_peptide_results_9.txt
+..number of distinct psms: 87703
+..number of MS2 scans: 87430
+TMT02_peptide_results_9.txt
+..number of distinct psms: 91045
+..number of MS2 scans: 90746
+TMT03_peptide_results_9.txt
+..number of distinct psms: 86743
+..number of MS2 scans: 86458
+TMT04_peptide_results_9.txt
+..number of distinct psms: 85523
+..number of MS2 scans: 85263
+TMT05_peptide_results_9.txt
+..number of distinct psms: 91348
+..number of MS2 scans: 91065
+TMT06_peptide_results_9.txt
+..number of distinct psms: 97596
+..number of MS2 scans: 97261
+TMT07_peptide_results_9.txt
+..number of distinct psms: 95937
+..number of MS2 scans: 95623
+TMT08_peptide_results_9.txt
+..number of distinct psms: 94629
+..number of MS2 scans: 94321
+TMT09_peptide_results_9.txt
+..number of distinct psms: 91077
+..number of MS2 scans: 90803
+TMT10_peptide_results_9.txt
+..number of distinct psms: 87679
+..number of MS2 scans: 87392
+TMT11_peptide_results_9.txt
+..number of distinct psms: 81861
+..number of MS2 scans: 81565
+TMT12_peptide_results_9.txt
+..number of distinct psms: 89004
+..number of MS2 scans: 88700
+length peptide_sets_dict is: 8362

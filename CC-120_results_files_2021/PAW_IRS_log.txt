@@ -1,0 +1,170 @@
+
+=================================================================
+ pandas_TMT_IRS_norm.py, v1.0.1, written by Phil Wilmarth 2017-8 
+=================================================================
+select a protein results file with TMT intensities and sample key:
+processing: labeled_grouped_proteins_TMT_9.txt
+proteins in results file: 8362
+total number of non-contaminant proteins: 7874
+contamaminant and decoy count: 488
+..1440 proteins were not quantifiable in TMT01
+..1433 proteins were not quantifiable in TMT02
+..1542 proteins were not quantifiable in TMT03
+..1569 proteins were not quantifiable in TMT04
+..1422 proteins were not quantifiable in TMT05
+..1257 proteins were not quantifiable in TMT06
+..1117 proteins were not quantifiable in TMT07
+..1196 proteins were not quantifiable in TMT08
+..1312 proteins were not quantifiable in TMT09
+..1406 proteins were not quantifiable in TMT10
+..1366 proteins were not quantifiable in TMT11
+..1321 proteins were not quantifiable in TMT12
+..proteins with no intensities experiment-wide: 62
+
+TMT01 SL Norm Factors:
+  TotInt_126C_TMT01: 1.063775
+  TotInt_127N_TMT01: 1.066862
+  TotInt_127C_TMT01: 0.951622
+  TotInt_128N_TMT01: 0.960844
+  TotInt_128C_TMT01: 0.995801
+  TotInt_129N_TMT01: 0.935560
+  TotInt_129C_TMT01: 0.924902
+  TotInt_130N_TMT01: 0.982892
+  TotInt_130C_TMT01: 0.932799
+  TotInt_131N_TMT01: 1.149245
+  TotInt_131C_TMT01: 0.998705
+TMT02 SL Norm Factors:
+  TotInt_126C_TMT02: 1.195619
+  TotInt_127N_TMT02: 1.161490
+  TotInt_127C_TMT02: 1.047009
+  TotInt_128N_TMT02: 1.031701
+  TotInt_128C_TMT02: 1.091012
+  TotInt_129N_TMT02: 1.040692
+  TotInt_129C_TMT02: 1.054083
+  TotInt_130N_TMT02: 1.094890
+  TotInt_130C_TMT02: 1.097714
+  TotInt_131N_TMT02: 1.222899
+  TotInt_131C_TMT02: 1.110061
+TMT03 SL Norm Factors:
+  TotInt_126C_TMT03: 1.230536
+  TotInt_127N_TMT03: 1.246324
+  TotInt_127C_TMT03: 1.151981
+  TotInt_128N_TMT03: 1.180884
+  TotInt_128C_TMT03: 1.180199
+  TotInt_129N_TMT03: 1.092517
+  TotInt_129C_TMT03: 1.129751
+  TotInt_130N_TMT03: 1.199000
+  TotInt_130C_TMT03: 1.125777
+  TotInt_131N_TMT03: 1.325311
+  TotInt_131C_TMT03: 1.229656
+TMT04 SL Norm Factors:
+  TotInt_126C_TMT04: 1.225146
+  TotInt_127N_TMT04: 1.200050
+  TotInt_127C_TMT04: 1.051919
+  TotInt_128N_TMT04: 1.051912
+  TotInt_128C_TMT04: 1.046772
+  TotInt_129N_TMT04: 1.121584
+  TotInt_129C_TMT04: 1.079143
+  TotInt_130N_TMT04: 1.069537
+  TotInt_130C_TMT04: 1.035446
+  TotInt_131N_TMT04: 1.176839
+  TotInt_131C_TMT04: 1.117092
+TMT05 SL Norm Factors:
+  TotInt_126C_TMT05: 1.049302
+  TotInt_127N_TMT05: 1.038803
+  TotInt_127C_TMT05: 0.972307
+  TotInt_128N_TMT05: 0.917622
+  TotInt_128C_TMT05: 0.913158
+  TotInt_129N_TMT05: 0.891219
+  TotInt_129C_TMT05: 0.962290
+  TotInt_130N_TMT05: 0.976903
+  TotInt_130C_TMT05: 0.966691
+  TotInt_131N_TMT05: 1.043137
+  TotInt_131C_TMT05: 1.014488
+TMT06 SL Norm Factors:
+  TotInt_126C_TMT06: 0.780160
+  TotInt_127N_TMT06: 0.732641
+  TotInt_127C_TMT06: 0.713370
+  TotInt_128N_TMT06: 0.638088
+  TotInt_128C_TMT06: 0.662608
+  TotInt_129N_TMT06: 0.657472
+  TotInt_129C_TMT06: 0.702552
+  TotInt_130N_TMT06: 0.679212
+  TotInt_130C_TMT06: 0.724168
+  TotInt_131N_TMT06: 0.760661
+  TotInt_131C_TMT06: 0.722717
+TMT07 SL Norm Factors:
+  TotInt_126C_TMT07: 0.939902
+  TotInt_127N_TMT07: 0.973992
+  TotInt_127C_TMT07: 0.828311
+  TotInt_128N_TMT07: 0.870430
+  TotInt_128C_TMT07: 0.853037
+  TotInt_129N_TMT07: 0.864552
+  TotInt_129C_TMT07: 0.831314
+  TotInt_130N_TMT07: 0.869067
+  TotInt_130C_TMT07: 0.835442
+  TotInt_131N_TMT07: 0.990724
+  TotInt_131C_TMT07: 0.918383
+TMT08 SL Norm Factors:
+  TotInt_126C_TMT08: 0.923370
+  TotInt_127N_TMT08: 0.900414
+  TotInt_127C_TMT08: 0.797671
+  TotInt_128N_TMT08: 0.811595
+  TotInt_128C_TMT08: 0.815445
+  TotInt_129N_TMT08: 0.795696
+  TotInt_129C_TMT08: 0.762159
+  TotInt_130N_TMT08: 0.828581
+  TotInt_130C_TMT08: 0.830772
+  TotInt_131N_TMT08: 0.956821
+  TotInt_131C_TMT08: 0.879516
+TMT09 SL Norm Factors:
+  TotInt_126C_TMT09: 1.063323
+  TotInt_127N_TMT09: 1.103823
+  TotInt_127C_TMT09: 0.996848
+  TotInt_128N_TMT09: 1.017142
+  TotInt_128C_TMT09: 1.017672
+  TotInt_129N_TMT09: 0.946404
+  TotInt_129C_TMT09: 0.992276
+  TotInt_130N_TMT09: 1.009892
+  TotInt_130C_TMT09: 0.986135
+  TotInt_131N_TMT09: 1.133018
+  TotInt_131C_TMT09: 1.099609
+TMT10 SL Norm Factors:
+  TotInt_126C_TMT10: 1.105730
+  TotInt_127N_TMT10: 1.063223
+  TotInt_127C_TMT10: 0.924378
+  TotInt_128N_TMT10: 0.943946
+  TotInt_128C_TMT10: 0.931070
+  TotInt_129N_TMT10: 0.904615
+  TotInt_129C_TMT10: 0.914829
+  TotInt_130N_TMT10: 0.957733
+  TotInt_130C_TMT10: 0.930347
+  TotInt_131N_TMT10: 1.007039
+  TotInt_131C_TMT10: 1.006435
+TMT11 SL Norm Factors:
+  TotInt_126C_TMT11: 1.294712
+  TotInt_127N_TMT11: 1.266108
+  TotInt_127C_TMT11: 1.139263
+  TotInt_128N_TMT11: 1.168414
+  TotInt_128C_TMT11: 1.133460
+  TotInt_129N_TMT11: 1.073548
+  TotInt_129C_TMT11: 1.076120
+  TotInt_130N_TMT11: 1.106136
+  TotInt_130C_TMT11: 1.079325
+  TotInt_131N_TMT11: 1.312552
+  TotInt_131C_TMT11: 1.204066
+TMT12 SL Norm Factors:
+  TotInt_126C_TMT12: 1.529537
+  TotInt_127N_TMT12: 1.512989
+  TotInt_127C_TMT12: 1.434955
+  TotInt_128N_TMT12: 1.410170
+  TotInt_128C_TMT12: 1.390336
+  TotInt_129N_TMT12: 1.322648
+  TotInt_129C_TMT12: 1.370017
+  TotInt_130N_TMT12: 1.340890
+  TotInt_130C_TMT12: 1.278194
+  TotInt_131N_TMT12: 1.540578
+  TotInt_131C_TMT12: 1.477730
+
+number of non-contaminant/decoy proteins: 7874
+number of proteins with full intensity sets: 5223
