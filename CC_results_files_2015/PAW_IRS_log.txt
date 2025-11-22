@@ -1,0 +1,53 @@
+
+=================================================================
+ pandas_TMT_IRS_norm.py, v1.0.1, written by Phil Wilmarth 2017-8 
+=================================================================
+select a protein results file with TMT intensities and sample key:
+processing: labeled_CC_grouped_proteins_TMT.txt
+proteins in results file: 6326
+total number of non-contaminant proteins: 6091
+contamaminant and decoy count: 235
+..301 proteins were not quantifiable in CC-S3
+..386 proteins were not quantifiable in CC-S4
+..369 proteins were not quantifiable in CC-S5
+..proteins with no intensities experiment-wide: 67
+
+CC-S3 SL Norm Factors:
+  TotInt_126C_CC-S3: 0.941468
+  TotInt_127N_CC-S3: 1.111738
+  TotInt_127C_CC-S3: 0.861093
+  TotInt_128N_CC-S3: 16.407511
+  TotInt_128C_CC-S3: 0.819975
+  TotInt_129N_CC-S3: 0.716039
+  TotInt_129C_CC-S3: 1.430384
+  TotInt_130N_CC-S3: 16.143860
+  TotInt_130C_CC-S3: 1.009393
+  TotInt_131N_CC-S3: 0.958261
+  TotInt_131C_CC-S3: 1.163419
+CC-S4 SL Norm Factors:
+  TotInt_126C_CC-S4: 1.078233
+  TotInt_127N_CC-S4: 1.176149
+  TotInt_127C_CC-S4: 0.780170
+  TotInt_128N_CC-S4: 17.634070
+  TotInt_128C_CC-S4: 1.043827
+  TotInt_129N_CC-S4: 0.772196
+  TotInt_129C_CC-S4: 1.117369
+  TotInt_130N_CC-S4: 16.620090
+  TotInt_130C_CC-S4: 0.860226
+  TotInt_131N_CC-S4: 0.877900
+  TotInt_131C_CC-S4: 1.159303
+CC-S5 SL Norm Factors:
+  TotInt_126C_CC-S5: 1.088925
+  TotInt_127N_CC-S5: 0.940545
+  TotInt_127C_CC-S5: 1.033061
+  TotInt_128N_CC-S5: 15.928131
+  TotInt_128C_CC-S5: 1.014342
+  TotInt_129N_CC-S5: 0.987336
+  TotInt_129C_CC-S5: 1.018634
+  TotInt_130N_CC-S5: 23.315836
+  TotInt_130C_CC-S5: 0.963681
+  TotInt_131N_CC-S5: 1.770023
+  TotInt_131C_CC-S5: 1.309198
+
+number of non-contaminant/decoy proteins: 6091
+number of proteins with full intensity sets: 5541

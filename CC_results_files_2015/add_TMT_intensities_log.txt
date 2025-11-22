@@ -1,0 +1,172 @@
+
+===============================================================
+ add_TMT_intensities.py, v1.0.1, written by Phil Wilmarth, OHSU
+===============================================================
+results file: grouped_protein_summary_9.txt
+trimmed average intensity must exceed: 750.0
+final zero values replaced with: 200.0
+getting intensities from SQT/TXT files
+
+LC run: z02134_MDP_liver_fusion_tmt8_cc_set5_12_filtered.txt
+Total: 8655, reject: 119, net: 8536, reject rate: 1.37%
+  Reject breakdown: empty: 15, weak: 104
+
+LC run: z02133_MDP_liver_fusion_tmt8_cc_set5_11_filtered.txt
+Total: 8532, reject: 116, net: 8416, reject rate: 1.36%
+  Reject breakdown: empty: 20, weak: 96
+
+LC run: z02132_MDP_liver_fusion_tmt8_cc_set5_10_filtered.txt
+Total: 8587, reject: 136, net: 8451, reject rate: 1.58%
+  Reject breakdown: empty: 24, weak: 112
+
+LC run: z02131_MDP_liver_fusion_tmt8_cc_set5_09_filtered.txt
+Total: 9102, reject: 99, net: 9003, reject rate: 1.09%
+  Reject breakdown: empty: 12, weak: 87
+
+LC run: z02130_MDP_liver_fusion_tmt8_cc_set5_08_filtered.txt
+Total: 8970, reject: 129, net: 8841, reject rate: 1.44%
+  Reject breakdown: empty: 19, weak: 110
+
+LC run: z02129_MDP_liver_fusion_tmt8_cc_set5_07_filtered.txt
+Total: 9062, reject: 104, net: 8958, reject rate: 1.15%
+  Reject breakdown: empty: 16, weak: 88
+
+LC run: z02128_MDP_liver_fusion_tmt8_cc_set5_06_filtered.txt
+Total: 9181, reject: 126, net: 9055, reject rate: 1.37%
+  Reject breakdown: empty: 21, weak: 105
+
+LC run: z02127_MDP_liver_fusion_tmt8_cc_set5_05_filtered.txt
+Total: 8318, reject: 91, net: 8227, reject rate: 1.09%
+  Reject breakdown: empty: 13, weak: 78
+
+LC run: z02126_MDP_liver_fusion_tmt8_cc_set5_04_filtered.txt
+Total: 8060, reject: 108, net: 7952, reject rate: 1.34%
+  Reject breakdown: empty: 10, weak: 98
+
+LC run: z02125_MDP_liver_fusion_tmt8_cc_set5_03_filtered.txt
+Total: 8192, reject: 98, net: 8094, reject rate: 1.20%
+  Reject breakdown: empty: 16, weak: 82
+
+LC run: z02124_MDP_liver_fusion_tmt8_cc_set5_02_filtered.txt
+Total: 8201, reject: 92, net: 8109, reject rate: 1.12%
+  Reject breakdown: empty: 12, weak: 80
+
+LC run: z02123_MDP_liver_fusion_tmt8_cc_set5_01_filtered.txt
+Total: 8333, reject: 119, net: 8214, reject rate: 1.43%
+  Reject breakdown: empty: 14, weak: 105
+
+LC run: z02118_MDP_liver_fusion_tmt8_cc_set4_12_filtered.txt
+Total: 8477, reject: 111, net: 8366, reject rate: 1.31%
+  Reject breakdown: empty: 18, weak: 93
+
+LC run: z02117_MDP_liver_fusion_tmt8_cc_set4_11_filtered.txt
+Total: 8621, reject: 105, net: 8516, reject rate: 1.22%
+  Reject breakdown: empty: 15, weak: 90
+
+LC run: z02116_MDP_liver_fusion_tmt8_cc_set4_10_filtered.txt
+Total: 8370, reject: 130, net: 8240, reject rate: 1.55%
+  Reject breakdown: empty: 32, weak: 98
+
+LC run: z02115_MDP_liver_fusion_tmt8_cc_set4_09_filtered.txt
+Total: 8946, reject: 81, net: 8865, reject rate: 0.91%
+  Reject breakdown: empty: 14, weak: 67
+
+LC run: z02114_MDP_liver_fusion_tmt8_cc_set4_08_filtered.txt
+Total: 8918, reject: 115, net: 8803, reject rate: 1.29%
+  Reject breakdown: empty: 28, weak: 87
+
+LC run: z02113_MDP_liver_fusion_tmt8_cc_set4_07_filtered.txt
+Total: 9150, reject: 101, net: 9049, reject rate: 1.10%
+  Reject breakdown: empty: 25, weak: 76
+
+LC run: z02112_MDP_liver_fusion_tmt8_cc_set4_06_filtered.txt
+Total: 9046, reject: 116, net: 8930, reject rate: 1.28%
+  Reject breakdown: empty: 14, weak: 102
+
+LC run: z02111_MDP_liver_fusion_tmt8_cc_set4_05_filtered.txt
+Total: 8361, reject: 74, net: 8287, reject rate: 0.89%
+  Reject breakdown: empty: 13, weak: 61
+
+LC run: z02110_MDP_liver_fusion_tmt8_cc_set4_04_filtered.txt
+Total: 7990, reject: 85, net: 7905, reject rate: 1.06%
+  Reject breakdown: empty: 6, weak: 79
+
+LC run: z02109_MDP_liver_fusion_tmt8_cc_set4_03_filtered.txt
+Total: 8071, reject: 98, net: 7973, reject rate: 1.21%
+  Reject breakdown: empty: 22, weak: 76
+
+LC run: z02108_MDP_liver_fusion_tmt8_cc_set4_02_filtered.txt
+Total: 8161, reject: 83, net: 8078, reject rate: 1.02%
+  Reject breakdown: empty: 8, weak: 75
+
+LC run: z02107_MDP_liver_fusion_tmt8_cc_set4_01_filtered.txt
+Total: 8289, reject: 107, net: 8182, reject rate: 1.29%
+  Reject breakdown: empty: 12, weak: 95
+
+LC run: z02102_MDP_liver_fusion_tmt8_cc_set3_12_filtered.txt
+Total: 8675, reject: 110, net: 8565, reject rate: 1.27%
+  Reject breakdown: empty: 24, weak: 86
+
+LC run: z02101_MDP_liver_fusion_tmt8_cc_set3_11_filtered.txt
+Total: 8705, reject: 94, net: 8611, reject rate: 1.08%
+  Reject breakdown: empty: 20, weak: 74
+
+LC run: z02100_MDP_liver_fusion_tmt8_cc_set3_10_filtered.txt
+Total: 8622, reject: 108, net: 8514, reject rate: 1.25%
+  Reject breakdown: empty: 20, weak: 88
+
+LC run: z02099_MDP_liver_fusion_tmt8_cc_set3_09_filtered.txt
+Total: 9054, reject: 109, net: 8945, reject rate: 1.20%
+  Reject breakdown: empty: 14, weak: 95
+
+LC run: z02098_MDP_liver_fusion_tmt8_cc_set3_08_filtered.txt
+Total: 8997, reject: 97, net: 8900, reject rate: 1.08%
+  Reject breakdown: empty: 21, weak: 76
+
+LC run: z02097_MDP_liver_fusion_tmt8_cc_set3_07_filtered.txt
+Total: 9339, reject: 91, net: 9248, reject rate: 0.97%
+  Reject breakdown: empty: 20, weak: 71
+
+LC run: z02096_MDP_liver_fusion_tmt8_cc_set3_06_filtered.txt
+Total: 9170, reject: 107, net: 9063, reject rate: 1.17%
+  Reject breakdown: empty: 23, weak: 84
+
+LC run: z02095_MDP_liver_fusion_tmt8_cc_set3_05_filtered.txt
+Total: 8561, reject: 102, net: 8459, reject rate: 1.19%
+  Reject breakdown: empty: 15, weak: 87
+
+LC run: z02094_MDP_liver_fusion_tmt8_cc_set3_04_filtered.txt
+Total: 7983, reject: 110, net: 7873, reject rate: 1.38%
+  Reject breakdown: empty: 19, weak: 91
+
+LC run: z02093_MDP_liver_fusion_tmt8_cc_set3_03_filtered.txt
+Total: 8332, reject: 102, net: 8230, reject rate: 1.22%
+  Reject breakdown: empty: 15, weak: 87
+
+LC run: z02092_MDP_liver_fusion_tmt8_cc_set3_02_filtered.txt
+Total: 8143, reject: 91, net: 8052, reject rate: 1.12%
+  Reject breakdown: empty: 13, weak: 78
+
+LC run: z02091_MDP_liver_fusion_tmt8_cc_set3_01_filtered.txt
+Total: 8318, reject: 105, net: 8213, reject rate: 1.26%
+  Reject breakdown: empty: 20, weak: 85
+
+total PSMs with added reporter ions: 309492
+total PSMs with empty reporter ions: 623
+total PSMs with intensities below cutoff: 3146
+total PSMs with zeroed reporter ions: 3769
+overall reject rate: 1.22%
+length of tmt_intensity_dict: 309492
+length of peptide_dict: 74666
+length of unique_peptide_dict: 71533
+non-redundant peptide sequence count: 63174
+CC-S3_peptide_results_9.txt
+..number of distinct psms: 102524
+..number of MS2 scans: 101955
+CC-S4_peptide_results_9.txt
+..number of distinct psms: 101092
+..number of MS2 scans: 100540
+CC-S5_peptide_results_9.txt
+..number of distinct psms: 101861
+..number of MS2 scans: 101298
+length peptide_sets_dict is: 6326
