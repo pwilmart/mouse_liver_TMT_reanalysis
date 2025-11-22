@@ -172,9 +172,9 @@ _Slide 17_
 
 ![slide 17](images/Slide17.png)
 
-There are a lot of delta mass and score histograms associated with processing the 4 TMT experiments. The data from all plexes for each of the two large experiments could be processed together without any problems on a Windows 10 single computer (Parallels virtual machine that is about half of my iMac Pro [5 of 10 cores and 32 GB of 128 GB RAM]). Processing all data took a few days with file conversions being the bottleneck. The total amount of disk used at the end of the analysis was about 600 GB. Simple desktop computer power has increased much more quickly than datasets have increased in size, even for a very large experiments like this. I do not see any need for the cloud, clusters, or indexed fragment ions.
+There are a lot of delta mass and score histograms associated with processing the 4 TMT experiments. The data from all plexes for each of the two large experiments could be processed together without any problems on a Windows 10 single computer (Parallels virtual machine that is about half of my iMac Pro [5 of 10 cores and 32 GB of 128 GB RAM]). Processing all data took a few days with file conversions being the bottleneck. The total amount of disk used at the end of the analysis was about 600 GB. Simple desktop computer power has increased much more quickly than datasets have increased in size, even for a very large experiments like this.
 
-Shown here are the score distributions for 2+ PSMs from the 2015 CC strain experiment (3 plexes, 24 samples). Matches to the target half of the FASTA file the blue score histograms and matches to the decoy half are the red score histograms. The dotted lines are the 1% PSM FDR cutoffs. The location of the score cutoffs depend on the numbers of target and decoy matches in each peptide subclass (the shapes of the score distributions do not change much by peptide subclass) and are different for each peptide subclass. This is how the PAW pipeline FDR analysis adapts to each dataset without the need for any complicated dynamic classifier computation step. The same static linear discriminant classifier function has been used on hundreds of datasets over the past 18 years without any changes. Most of the Python scripts were written in 2014 and the Comet version used is from 2016. The actual proteomics concepts have not changed in the past 18 years despite what marketing departments and high impact journal article say.
+Shown here are the score distributions for 2+ PSMs from the 2015 CC strain experiment (3 plexes, 24 samples). Matches to the target half of the FASTA file the blue score histograms and matches to the decoy half are the red score histograms. The dotted lines are the 1% PSM FDR cutoffs. The location of the score cutoffs depend on the numbers of target and decoy matches in each peptide subclass (the shapes of the score distributions do not change much by peptide subclass) and are different for each peptide subclass. This is how the PAW pipeline FDR analysis adapts to each dataset without the need for any complicated dynamic classifier computation step. The same static linear discriminant classifier function has been used on hundreds of datasets over the past 18 years without any changes. Most of the Python scripts were written in 2014 and the Comet version used is from 2016. Most key proteomics concepts have not changed in the past 18 years despite what marketing departments and high impact journal article say.
 
 ---
 
@@ -190,7 +190,7 @@ _Slide 19_
 
 ![slide 19](images/Slide19.png)
 
-On the left are protein total TMT intensity distribution boxplots with samples color coded. Each of the 4 strains are different color families (red, blue, green, black/grey) with 3 female mice in the darker color and 3 male mice in the lighter color for each strain. The boxplots are in excellent horizontal alignment after IRS adjustment and the trimmed mean of M-values (TMM) normalization function in the edgeR Bioconductor package. The multi-dimensional scaling plot (like a PCA plot) on the right shows that the samples cluster by strain and by sex (roughly equal strengths). The IRS approach has removed any TMT plex batch-like effect from the data. Interestingly, one CC 003 female sample clusters with the CC 017 female samples (a mis-classified mouse?). This is a clear deviation from the pattern of all other samples. There was no statistical work up of the proteome differences between strains or between sexes in the publication, so further analysis of this data was not done in the reanalysis.
+On the left are protein total TMT intensity distribution box plots with samples color coded. Each of the 4 strains are different color families (red, blue, green, black/grey) with 3 female mice in the darker color and 3 male mice in the lighter color for each strain. The box plots are in excellent horizontal alignment after IRS adjustment and the [trimmed mean of M-values](https://link.springer.com/content/pdf/10.1186/gb-2010-11-3-r25.pdf) (TMM) normalization function in the [edgeR Bioconductor package](https://bioconductor.org/packages//2.11/bioc/html/edgeR.html). The multi-dimensional scaling plot (like a PCA plot) on the right shows that the samples cluster by strain and by sex (roughly equal strengths). The IRS approach has removed any TMT plex batch-like effect from the data. Interestingly, one CC 003 female sample clusters with the CC 017 female samples (a mis-classified mouse?). This is a clear deviation from the pattern of all other samples. There was no statistical work up of the proteome differences between strains or between sexes in the publication, so further analysis of this data was not done in the reanalysis.
 
 ---
 
@@ -206,7 +206,7 @@ _Slide 21_
 
 ![slide 21](images/Slide21.png)
 
-Here are the key points about the Diversity Outbred experiment from the 2015 paper. Again, no reference channel but mostly balanced sample allocation per plex (similar numbers of each diet in each plex and similar numbers of each sex in each plex. DO strains randomly allocated.
+Here are the key points about the Diversity Outbred experiment from the 2015 paper. Again, no reference channel but mostly balanced sample allocation per plex (similar numbers of each diet in each plex and similar numbers of each sex in each plex. DO strains were randomly allocated to plexes.
 
 ---
 
@@ -214,7 +214,7 @@ _Slide 22_
 
 ![slide 22](images/Slide22.png)
 
-The 210 samples make for a complicated boxplot of protein intensity distributions (left). Females are in dark red (high-fat diet) or pink (standard chow) and males are in dark blue (high fat) or light blue (standard chow). Note that boxplots are horizontally aligned because of TMM normalization. Boxplot look very similar with or without doing the IRS adjustment (but the data is pure crap without the IRS adjustment). The MDS plot on the right shows that females and males separate left-to-right and that diet separates top-to-bottom. The x-axis strength is about 3 times larger than the y-axis suggesting that sex is a much bigger difference than diet. Extended data figure 2 in the [2015 paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC5292866/) has a similar looking PCA plot (A). Seven of the 8 individual proteins shown in (B-E) were present in the final IRS-adjusted data (the other protein was not seen in all 21 plexes). Plots of those proteins were made in an Excel results file tab and they are qualitatively similar in all 7 cases. The results from the 2015 study can be replicated in a very different reanalysis effort (different FASTA, different search engine, different data filtering, different protein inference, and VERY different treatment of reporter ions).
+The 210 samples make for a complicated box plot view of protein intensity distributions (left). Females are in dark red (high-fat diet) or pink (standard chow) and males are in dark blue (high fat) or light blue (standard chow). Note that box plots are horizontally aligned because of TMM normalization. Box plots look very similar with or without doing the IRS adjustment (but the data is pure crap without the IRS adjustment). The MDS plot on the right shows that females and males separate left-to-right and that diet separates top-to-bottom. The x-axis strength is about 3 times larger than the y-axis suggesting that sex is a much bigger difference than diet. Extended data figure 2 in the [2015 paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC5292866/) has a similar looking PCA plot (A). Seven of the 8 individual proteins shown in (B-E) were present in the final IRS-adjusted data (the other protein was not seen in all 21 plexes). Plots of those proteins were made in an Excel results file tab and they are qualitatively similar in all 7 cases. The results from the 2015 study can be replicated in a very different reanalysis effort (different FASTA, different search engine, different data filtering, different protein inference, and **very** different treatment of reporter ions).
 
 ---
 
@@ -222,7 +222,7 @@ _Slide 23_
 
 ![slide 23](images/Slide23.png)
 
-Boxplots of the CVs are shown on the left with the median CV values listed above the groups. The distribution density plots are shown on the right where all 4 groups have similar shaped distributions. These CVs are considerably large than we had for the CC strain experiment.
+Box plots of the CVs are shown on the left with the median CV values listed above the groups. The distribution density plots are shown on the right where all 4 groups have similar shaped distributions. These CVs are considerably large than we had for the CC strain experiment.
 
 ---
 
@@ -230,7 +230,7 @@ _Slide 24_
 
 ![slide 24](images/Slide24.png)
 
-This scatter plot grid shows the 4 biological group average protein intensities against each other. FH is high fat diet female, FS is standard chow female, MH is high fat male, and MS is standard chow male. It is easy to see that the sex difference is much larger than the diet difference. The way reporter ion intensities are summed into protein totals and kept in a natural, linear intensity scale in the PAW pipeline facilitates proteome comparisons and insights. The protein intensities will not be perfect proxies for protein relative abundances, but they are good approximations. In dozens of projects where basic features of the proteomes under study are known from many previous studies, these summed reporter ion protein intensities reflect the known biology. We have protein intensity sums that span 5 decades of intensities. Liver has some prominent high abundance proteins (these are log10 plots) and the proteins that are different between females and males are medium to lower abundance proteins. This proteome-level summarization can be very useful to biological interpretation of the data.
+This scatter plot grid shows the 4 biological group average protein intensities against each other. FH is high fat diet female, FS is standard chow female, MH is high fat male, and MS is standard chow male. It is easy to see that the sex difference is much larger than the diet difference. The way reporter ion intensities are summed into protein totals and kept in a natural, linear intensity scale in the PAW pipeline facilitates proteome comparisons and insights. The protein intensities will not be perfect proxies for protein relative abundances, but they are good approximations. In dozens of projects where basic features of the proteomes under study are known from many previous studies, these summed reporter ion protein intensities reflect the known proteome characteristics. Here we have protein intensity sums that span 5 decades of intensities. Liver has some prominent high abundance proteins (these are log10 plots) and the proteins that are different between females and males are medium to lower abundance proteins. This proteome-level summarization can be very helpful to biological interpretation of the data.
 
 ---
 
@@ -238,7 +238,7 @@ _Slide 25_
 
 ![slide 25](images/Slide25.png)
 
-Here are the details of the founder strain characterization experiment from the 2015 paper. There are 32 biological samples in a 4-plex, 40 channel experiment. Some of the samples were duplicated to fill up all 40 channels (5 samples from each founder strain). The plex-wide average intensities were used as mock reference channels.
+Here are the details of the founder strain characterization experiment from the 2015 paper. There are 32 biological samples in a 4-plex, 40-channel experiment. Some of the samples were duplicated to fill up all 40 channels (5 samples from each founder strain). The plex-wide average intensities were used as mock reference channels.
 
 ---
 
@@ -246,7 +246,7 @@ _Slide 26_
 
 ![slide 26](images/Slide26.png)
 
-The lovely protein reporter ion intensity boxplots are shown on the left. The colors are for the 8 founder strains. The female and male mice samples are the same color. The MDS plot on the right is a little messy because the 8 strains separate from each other and each strain has the female and male samples separating from each other. The dotted line separates female from male samples again suggesting a strong sex effect. The CAST (C) and PWK (P) strains are more separated from the other 6 strains. This agrees with the PCA plot in Extended data figure 1 (B) from the 2015 paper. The individual proteins in (D) were also checked and trends were also in good agreement (the 4th figure and the last figure are labeled with the same gene symbol (the last plot label seems to be wrong and the gene being plotted is not known).
+The lovely protein reporter ion intensity box plots are shown on the left. The colors are for the 8 founder strains. The female and male mice samples are the same color. The MDS plot on the right is a little messy because the 8 strains separate from each other and each strain has the female and male samples separating from each other. The dotted line separates female from male samples again suggesting a strong sex effect. The CAST (C) and PWK (P) strains are more separated from the other 6 strains. This agrees with the PCA plot in Extended data figure 1 (B) from the [2015 paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC5292866/). The individual proteins in (D) were also checked and trends were also in good agreement (the 4th figure and the last figure are labeled with the same gene symbol (the last plot label seems to be wrong and the gene being plotted is not known).
 
 ---
 
@@ -254,7 +254,7 @@ _Slide 27_
 
 ![slide 27](images/Slide27.png)
 
-Boxplots of the CVs are shown on the left with the median CV values listed above the groups. The distribution density plots are shown on the right where all 7 strains have similar shaped distributions, and the NOD strain has a rather different shaped distribution. These CVs are intermediate (larger than the CC experiment and smaller than the DO experiment). That is likely from including both female and male samples in the strain groups. This founder strain characterization needs more replicates to do much more analysis with. If mice were separated by sex, there would 16 groups with just two biological replicates per group.
+Box plots of the CVs are shown on the left with the median CV values listed above the groups. The distribution density plots are shown on the right where all 7 strains have similar shaped distributions, and the NOD strain has a rather different shaped distribution. These CVs are intermediate (larger than the CC experiment and smaller than the DO experiment). That is likely from including both female and male samples in the strain groups. This founder strain characterization needs more replicates to do much more analysis with. If mice were separated by sex, there would 16 groups with just two biological replicates per group.
 
 ---
 
@@ -262,7 +262,7 @@ _Slide 28_
 
 ![slide 28](images/Slide28.png)
 
-The scatter plot grid for the NOD strain is shown on the left. The samples all show differences from each other. All scatter plots except for the lower left plot have significant scatter. The lower left plot is the duplicated sample (male 1 from the first and 4th plexes). The IRS adjustment has removed the instrument random sampling effect and only some low abundance proteins show deviation from the diagonal trend line. The right shows the intensity averages from each of the 8 strains versus each other. We do see a range of how much scatter there are in the plots demonstrating that the strains do have significant differences.
+The scatter plot grid for the NOD strain is shown on the left. The samples all show differences from each other. All scatter plots except for the lower left plot have significant scatter. The lower left plot is the duplicated sample (male 1 from the first and 4th plexes). The IRS adjustment has removed the instrument random sampling effect and only some low abundance proteins show deviation from the diagonal trend line. The right shows the intensity averages from each of the 8 strains versus each other. We do see a range of how much scatter there are in the plots demonstrating that the strains do have significant and variable differences.
 
 ---
 
@@ -270,7 +270,7 @@ _Slide 29_
 
 ![slide 29](images/Slide29.png)
 
-Here are the details of the 2021 CC experiment with 120 mouse livers from 58 CC crosses (one female and one male mouse from each cross). There were 12 11-channel plexes. The 11th channel in each plex was a common reference channel and that was used in the IRS adjustment.
+Here are the details of the 2021 CC experiment with 120 mouse livers from 58 CC crosses (one female and one male mouse from each cross). There were twelve 11-channel plexes. The 11th channel in each plex was a common reference channel and that was used in the IRS adjustment.
 
 ---
 
@@ -278,7 +278,7 @@ _Slide 30_
 
 ![slide 30](images/Slide30.png)
 
-The boxplots of the intensity distributions of the protein reporter ion sums are shown on the left (females in red and males in blue). The MDS plot shows that the samples separate strongly by sex.
+The box plots of the intensity distributions of the protein reporter ion sums are shown on the left (females in red and males in blue). The MDS plot shows that the samples separate strongly by sex.
 
 ---
 
@@ -286,7 +286,7 @@ _Slide 31_
 
 ![slide 31](images/Slide31.png)
 
-The CV distributions are similar to what we saw in the DO experiment from the 2015 paper (median CVs values around 15%). There was no subgrouping by diet in the 2021 experiment. The scatter plot grid shows the scatter plot of the average female protein intensities versus the average male intensities. There are a relatively small number of proteins having significant intensity differences.
+The CV distributions are similar to what we saw in the DO experiment from the 2015 paper (median CVs values around 15%). There was no diet effect in the 2021 experiment. The scatter plot grid shows the scatter plot of the average female protein intensities versus the average male intensities. There are a relatively small number of proteins having significant intensity differences (there are over 5000 proteins in the plot).
 
 ---
 
@@ -294,9 +294,9 @@ _Slide 32_
 
 ![slide 32](images/Slide32.png)
 
-Large-scale single-plex TMT experiments take some time and effort to analyze well. There is some extra time and effort required to process multi-plex TMT experiments. With a good experimental design implementation of the IRS technique, the final combined data will be as high quality as single plex data (slightly reduced proteome profiling depth is the only tradeoff). Not all processing pipelines are equivalent even if they claim to support TMT experiments. Proteome Discoverer has many default settings that are not good choices and the need to define the experiment ahead of time makes the set up extremely tedious. Data needs to be exported to complete proper statistical testing and do QC checks. The PD export table formats are dependent on the specific workflows used and that can complicate importing into other data analysis tools. MaxQuant is (maybe) easier to set up than PD, but the PSM identification sensitivity is shockingly poor, and the software can be slow and prone to crashes. Since MQ is designed to be used with Perseus, the output tables are sort of formatted to facilitate downstream data analysis with other tools. The MQ summary tables are not as easy to import into R or pandas as one might hope. The PAW pipeline is the only pipeline I am aware of that includes support for IRS multi-plex experiments and summarizes the reporter ion data in a nice, biologically accessible format.
+Large-scale single-plex TMT experiments take time and effort to analyze well. There is some additional time and effort required to process multi-plex TMT experiments. With a good experimental design implementation of the IRS technique, the final combined data will be as high quality as single plex data (slightly reduced proteome profiling depth is the only tradeoff). Not all processing pipelines are equivalent even if they claim to support TMT experiments. Proteome Discoverer has many default settings that are not good choices and the need to define the experiment ahead of time makes the set up extremely tedious. Data needs to be exported to complete proper statistical testing and do QC checks. The PD export table formats are dependent on the specific workflows used and that can complicate importing into other data analysis tools. MaxQuant is (maybe) easier to set up than PD, but the PSM identification sensitivity is shockingly poor, and the software can be slow and prone to crashes. Since MQ is designed to be used with Perseus, the output tables are sort of formatted to facilitate downstream data analysis with other tools. The MQ summary tables are not as easy to import into R or pandas as one might hope. The PAW pipeline is the only pipeline I am aware of that includes support for IRS multi-plex experiments and summarizes the reporter ion data in a nice, biologically accessible format.
 
-I use Jupyter notebooks, R, and Bioconductor packages for QC and statistical testing (none of that was done for this data, however). Yes, there are many more data analysis steps needed to get data to the publication stage than were mentioned in this presentation. Note that those additional steps have nothing to do with TMT labeling. QC checking, statistical analyses, final data formatting, enrichment analyses, and biological interpretation all must be done for any quantitative proteomics work. There are many issues that can (and do) happen in these larger experiments, such as, bad samples (outliers), mis-labeled samples, poor LC or MS performance, and contaminating proteomes (blood proteins were a minor issue in these liver samples). You really want to discoverer these issues and correct things before writing the paper. Reporting differentially abundant immunoglobulins in liver tissue would not help your scientific reputation.
+I use Jupyter notebooks, R, and Bioconductor packages for QC checking (there are notebook files in the results folders) and statistical testing (no statistical testing was done for this data, however). The statistical testing notebooks can get complicated when study designs have many biological groups. Yes, there are many more data analysis steps needed to get data to the publication stage than were mentioned in this presentation. Note that those additional steps have nothing to do with TMT labeling per se. QC checking, statistical analyses, final data formatting, enrichment analyses, and biological interpretation must be done for any quantitative proteomics work. There are many issues that can (and do) happen in these larger experiments; such as, bad samples (outliers), mis-labeled samples, poor LC or MS performance, and contaminating proteomes (blood proteins were a minor issue in these liver samples). You really want to discoverer these issues and correct things before writing the paper. Reporting differentially abundant immunoglobulins in liver tissue would not help your scientific reputation.
 
 ---
 
@@ -304,6 +304,6 @@ _Slide 33_
 
 ![slide 33](images/Slide33.png)
 
-I don’t know enough genomics to understand exactly what these two papers were designed to show. It seems to me that there is a huge amount of biology in between transcript relative abundance differences and the static levels of proteins in liver tissue. I do not know how to connect those dots. I was also unsure what the two smaller experiments in the 2015 paper showed. I suspect the different inbred strains of mice have many known differences besides differences in liver proteomes. The two large scale DO and CC experiments do provide mouse liver proteome data from a more biologically diverse cohort than you would get from single strain studies. The difference between female and male mouse liver proteomes is quite pronounced. Maybe this is already well-studied? The large DO experiment has low-fat and high-fat diet changes that could be explored and if those changes are similar for female and male mice. Again, maybe this is already known. Or maybe cancer in mice is a bigger health risk that are diet and lifestyle choices. I do not know what the NIH long term goals are for improving the health and quality of life for lab mice.
+I don’t know enough genomics to understand exactly what these two papers were designed to show. It seems to me that there is a huge amount of biology in between transcript relative abundance differences and the static levels of proteins in liver tissue. I do not know how to connect those dots. I was also unsure what the two smaller experiments in the 2015 paper showed. I suspect the different inbred strains of mice have many known differences besides differences in liver proteomes. The two large scale DO and CC experiments do provide mouse liver proteome data from a more biologically diverse cohort than you would get from single mouse strain studies. The difference between female and male mouse liver proteomes is quite pronounced. Maybe this is already well-studied? The large DO experiment has low-fat and high-fat diet changes that could be explored and if those changes are similar for female and male mice. Again, maybe this is already known. Maybe cancer in lab mice is a bigger health risk that are diet and lifestyle choices. I do not know what the NIH long term goals are for improving the health and quality of life for lab mice.
 
 ---
